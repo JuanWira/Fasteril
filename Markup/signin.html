@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../Style/navbar.css">
+    <link rel="stylesheet" href="../Style/signup.css">
+</head>
+<body>
+    <nav>
+        <a class="hom-but left" href="index.html"><img src="../Assets/Logo/disinfectan.png"><img src="../Assets/Logo/fstrl.png"></a>
+        <a class="nav-text" href="order.html">PLACE ORDER</a>
+        <a class="nav-text" href="orderList.html">ORDER LIST</a>
+        <a class="nav-text" href="about.html">ABOUT US</a>
+        <a class="login loginActive"></a>
+    </nav>
+
+    <div class="loginPage">
+        <div class="container">
+            <img class="image" src="../Assets/Logo/fstrl.png">
+            <form id="login">
+                    <label for="'email">Phone Number Or Email</label>
+                    <input type="text" placeholder="" id="email" required/>
+                    <label for="'password">Password</label>
+                    <input type="password" placeholder="" id="password" required/>
+                    <a class="forgot-pass">Forgot Passsword?</a>
+                    <input type="submit" class="submitButt" value="SIGN IN">
+            </form>
+            
+            <p class="accountHave">If you have an account</p>
+            <a class="changeMode" href="signup.html">Sign Up</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="column contact">
+                <h1>CONTACT US</h1>
+                <a href="https://www.instagram.com/fasteril.id/" class="sosmed"><img src="../Assets/Logo/insta.png" > @fasteril.id</a>
+                <a href="https://web.whatsapp.com/" class="sosmed"><img src="../Assets/Logo/wa.png"> 0878-1234-5678</a>
+                <a href="https://mail.google.com/" class="sosmed"><img src="../Assets/Logo/email.png"> fasteril.id@gmail.com</a>
+            </div>
+            <div class="column">
+                <h1>RATE US</h1>
+            </div>
+            <div class="column">
+                <h1>FEEDBACK</h1>
+                <form>
+                    <textarea rows="2" placeholder="Type Your Feedback"></textarea>
+                    <button type="submit" class="submitFeedback">SEND</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <h4>&#169 Kelompok 3 2022</h4>
+    </footer>
+
+    <script src="../Script/nav.js"></script>
+    <script src="../Script/loginForm.js"></script>
+</body>
+</html>

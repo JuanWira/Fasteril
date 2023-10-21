@@ -1,0 +1,68 @@
+.title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 6vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #020202;
+}
+
+.main-img{
+    margin: auto;
+    width: 90%;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpart{
+    display: flex;
+    width: 80%;
+}
+
+.left{
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.right{
+    text-align: right;
+    justify-content: flex-end;
+}
+
+
+
+.subpart h2{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.75vw;
+    line-height: 3.75vw;
+    letter-spacing: -0.02em;
+
+    color: #020202;
+}
+
+.subpart p{
+    width: 50vw;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 3.2vw;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.aboutimg{
+    width: 30vw;
+    height: 30vw;
+}

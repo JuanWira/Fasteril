@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasteril</title>
+    <link rel="icon" href="../Assets/Logo/disinfectan.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../Style/index.css">
+    <link rel="stylesheet" href="../Style/navbar.css">
+</head>
+<body>
+    <nav>
+        <a class="hom-but left" href="index.html"><img src="../Assets/Logo/disinfectan.png"><img src="../Assets/Logo/fstrl.png"></a>
+        <a class="nav-text" href="order.html">PLACE ORDER</a>
+        <a class="nav-text" href="orderList.html">ORDER LIST</a>
+        <a class="nav-text" href="about.html">ABOUT US</a>
+        <a class="login" href="signup.html"></a>
+    </nav>
+
+    <div class="land-page"> 
+        <h1>Here is our respect<br>for you who disinfect</h1>
+        <button onclick="goToOrder()">OUR SERVICES</button>
+    </div>
+
+    <div class="articles">
+        <h1>Articles</h1>
+
+        <div class="article-collection">
+            <div class="article-card" onclick="goToNews1()">
+                <img src="../Assets/news/news1.png">
+                <h2>The benefits of disinfecting our room in the pandemic</h2>
+            </div>
+
+            <div class="article-card" onclick="goToNews2()">
+                <img src="../Assets/news/news2.jpeg">
+                <h2>Don't spray it to your body! Here are the types of disinfectants and how to apply it</h2>
+            </div>
+
+            <div class="article-card" onclick="goToNews3()">
+                <img src="../Assets/news/news3.jpg">
+                <h2>Here are the chemicals you should avoid on disinfectants</h2>
+            </div>
+        </div>
+        <button onclick="goToNews()">View All</button>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="column contact">
+                <h1>CONTACT US</h1>
+                <a href="https://www.instagram.com/fasteril.id/" class="sosmed"><img src="../Assets/Logo/insta.png" > @fasteril.id</a>
+                <a href="https://web.whatsapp.com/" class="sosmed"><img src="../Assets/Logo/wa.png"> 0878-1234-5678</a>
+                <a href="https://mail.google.com/" class="sosmed"><img src="../Assets/Logo/email.png"> fasteril.id@gmail.com</a>
+            </div>
+            <div class="column">
+                <h1>RATE US</h1>
+            </div>
+            <div class="column">
+                <h1>FEEDBACK</h1>
+                <form>
+                    <textarea rows="2" placeholder="Type Your Feedback"></textarea>
+                    <button type="submit" class="submitFeedback">SEND</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <h4>&#169 Kelompok 3 2022</h4>
+    </footer>
+
+    <script src="../Script/nav.js"></script>
+</body>
+</html>

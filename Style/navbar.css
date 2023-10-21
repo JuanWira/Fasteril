@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #BEDCFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw 1.25vw;
+    z-index: 99;
+
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    height: 9vh;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav img{
+    height: 2.5vw;
+    padding: 0.3vw;
+}
+
+.login{
+    width: 3.2vw;
+    height: 3.2vw;
+    background-image: url("../Assets/Logo/Account.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login:hover, .loginActive{
+    background-image: url("../Assets/Logo/Account-Hover.png");
+}
+
+.hom-but{
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+nav .nav-text{
+    margin: 0 1.25vw;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2vw;
+    letter-spacing: -0.02em;
+    background: linear-gradient(180deg, #68E0CF 0%, #57D0DA 19.79%, #4BC5E2 40.1%, #3FB9EA 59.37%, #31ACF4 79.69%, rgba(0, 0, 0, 0) 100%, #219DFE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    cursor: pointer;
+}
+
+nav .nav-text:hover{
+    background: #EF5DA8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.active{
+    margin: 0 1.25vw;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    letter-spacing: -0.02em;
+    color: #EF5DA8;
+    cursor: default;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+
+    width: 100%;
+    /* height: 400px; */
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(56, 56, 56, 1);
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column{
+    margin: 2vw 0 0;
+    width: 21vw;
+}
+
+.contact{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.25vw;
+}
+
+.sosmed {
+    display: flex;
+    align-items: center;
+    margin: 0.6vw 0;
+    text-decoration: none;
+    color: white;
+    column-gap: 0.6vw;
+    cursor: pointer;
+
+}
+
+.sosmed:hover {
+    opacity: 0.5;
+}
+
+.foot h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2vw;
+    margin: 0;
+    line-height: 3.2vw;
+    letter-spacing: -0.02em;
+}
+
+textarea{
+    margin-top: 1vw;
+    width: 100%;
+    font-family: Ubuntu Condensed;
+    font-size: 1.5vw;
+}
+
+.submitFeedback{
+    font-family: Ubuntu Condensed;
+    font-size: 1.5vw;
+    width: 6vw;
+
+    background: linear-gradient(180deg, #31ACF4 0%, #3FB9EA 0%, #8BEEE0 0%, #79E4DE 0.01%, #4BC5E2 0.02%, #57D0DA 19.79%, #219DFE 99.99%, rgba(0, 0, 0, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0.8vw;
+    border: 0px hidden;
+    cursor: pointer;
+    margin-top: 0.6vw;
+
+    opacity: 0.7;
+}
+
+.submitFeedback:hover{
+    opacity: 1;
+}
+
+h4{
+    margin: 0;
+    padding: 0.6vw;
+    font-size: 1.25vw;
+}
+
+footer hr{
+    border: 2px solid white;
+}
+
